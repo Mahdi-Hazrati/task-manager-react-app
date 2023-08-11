@@ -1,0 +1,243 @@
+
+@font-face {
+  font-family: Peyda;
+  font-style: normal;
+  font-weight: 900;
+  src: url("./assets/fonts/Peyda/eot/PeydaWeb-Black.eot");
+  src: url("./assets/fonts/Peyda/eot/PeydaWeb-Black.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-8 */ url("./assets/fonts/Peyda/woff2/PeydaWeb-Black.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("./assets/fonts/Peyda/woff/PeydaWeb-Black.woff") format("woff"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+      url("./assets/fonts/Peyda/ttf/Peyda-Black.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Peyda;
+  font-style: normal;
+  font-weight: bold;
+  src: url("./assets/fonts/Peyda/eot/PeydaWeb-Bold.eot");
+  src: url("./assets/fonts/Peyda/eot/PeydaWeb-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-8 */ url("./assets/fonts/Peyda/woff2/PeydaWeb-Bold.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("./assets/fonts/Peyda/woff/PeydaWeb-Bold.woff") format("woff"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+      url("./assets/fonts/Peyda/ttf/Peyda-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Peyda;
+  font-style: normal;
+  font-weight: 500;
+  src: url("./assets/fonts/Peyda/eot/PeydaWeb-Medium.eot");
+  src: url("./assets/fonts/Peyda/eot/PeydaWeb-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-8 */ url("./assets/fonts/Peyda/woff2/PeydaWeb-Medium.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("./assets/fonts/Peyda/woff/PeydaWeb-Medium.woff") format("woff"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+      url("./assets/fonts/Peyda/ttf/Peyda-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Peyda;
+  font-style: normal;
+  font-weight: 300;
+  src: url("./assets/fonts/Peyda/eot/peydaWeb-light.eot");
+  src: url("./assets/fonts/Peyda/eot/peydaWeb-light.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-8 */ url("./assets/fonts/Peyda/woff2/peydaWeb-light.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("./assets/fonts/Peyda/woff/peydaWeb-light.woff") format("woff"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+      url("./assets/fonts/Peyda/ttf/peyda-light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Peyda;
+  font-style: normal;
+  font-weight: 200;
+  src: url("./assets/fonts/Peyda/eot/peydaWeb-extralight.eot");
+  src: url("./assets/fonts/Peyda/eot/peydaWeb-extralight.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-8 */ url("./assets/fonts/Peyda/woff2/peydaWeb-extralight.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("./assets/fonts/Peyda/woff/peydaWeb-extralight.woff") format("woff"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+      url("./assets/fonts/Peyda/ttf/peyda-extralight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Peyda;
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/Peyda/eot/PeydaWeb-Regular.eot");
+  src: url("./assets/fonts/Peyda/eot/PeydaWeb-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-8 */ url("./assets/fonts/Peyda/woff2/PeydaWeb-Regular.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("./assets/fonts/Peyda/woff/PeydaWeb-Regular.woff") format("woff"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+      url("./assets/fonts/Peyda/ttf/Peyda-Regular.ttf") format("truetype");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Peyda", sans-serif;
+  direction: rtl; 
+}
+
+.container {
+  max-width: 500px;
+  /* 30px auto */
+  margin: 30px 25px;
+  overflow: auto;
+  min-height: 300px;
+  border: 2px solid tomato;
+  padding: 30px;
+  border-radius: 14px;
+  user-select: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background: tomato;
+  color: rgba(255, 255, 255, 0.750);
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 14px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: inherit;
+  transition: color 0.5s;
+  font-weight: bold;
+}
+.btn:hover{
+  color: rgba(255, 255, 255, 1);
+
+}
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn-block {
+  display: block;
+  width: fit-content;
+  text-align: center;
+}
+
+.task {
+  background: #f0f0f0;
+  margin: 5px;
+  padding: 10px 20px;
+  border-radius: 14px;
+  transition-timing-function: ease-in-out;
+  transition: background-color 0.5s, border-right 0.5s;
+}
+.task:hover{
+  background-color: #ffffff;
+  border: 1px solid tomato;
+  border-radius: 14px;
+}
+
+.task.reminder {
+  border-right: 5px solid tomato;
+}
+
+.task h3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.add-form {
+  margin-bottom: 40px;
+}
+
+.form-control {
+  margin: 15px 0;
+
+}
+
+.form-control label {
+  display: block;
+}
+
+.form-control input {
+  width: 80%;
+  height: 40px;
+  margin: 5px;
+  padding: 3px 7px;
+  font-size: 16px;
+  font-family: Peyda;
+  border: none;
+  background-color: #f0f0f0;
+  border-left: 5px solid tomato;
+  
+}
+.form-control input:focus{
+  outline: none;
+}
+
+.form-control-check {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+}
+
+.form-control-check label {
+  flex: 1;
+}
+
+.form-control-check input {
+  flex: 1;
+  height: 25px;
+  margin-bottom: 10px;
+  vertical-align: middle;
+}
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+}
+#FaTrashIcon{
+  transition: color 0.5s;
+}
+#FaTrashIcon:hover{
+  color: tomato;
+  cursor: pointer;
+}
+
+
+#FaCalendatIcon{
+  transition: color 0.5s;
+}
+#FaCalendatIcon:hover{
+  color: tomato;
+}
